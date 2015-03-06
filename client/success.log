@@ -1,0 +1,572 @@
+[info] Loading global plugins from /Users/mhughes/.sbt/0.13/plugins
+[info] Loading project definition from /Users/mhughes/ccad/development/thunderbird/test_case/client/project
+[info] Set current project to the-client (in build file:/Users/mhughes/ccad/development/thunderbird/test_case/client/)
+[success] Total time: 0 s, completed Mar 6, 2015 3:55:26 PM
+[debug] > plugins
+In file:/Users/mhughes/ccad/development/thunderbird/test_case/client/
+	sbt.plugins.IvyPlugin: enabled in client
+	sbt.plugins.JvmPlugin: enabled in client
+	sbt.plugins.CorePlugin: enabled in client
+	sbt.plugins.JUnitXmlReportPlugin: enabled in client
+	de.heikoseeberger.sbtheader.SbtHeader: enabled in client
+	ThePlugin: enabled in client
+[debug] > +publishLocal
+[debug] > ++ 2.10.4 publishLocal
+[info] Setting version to 2.10.4
+[info] Reapplying settings...
+[info] Set current project to the-client (in build file:/Users/mhughes/ccad/development/thunderbird/test_case/client/)
+[debug] > publishLocal
+[debug] Evaluating tasks: *:publishLocal
+[debug] Running task... Cancel: sbt.TaskCancellationStrategy$Null$@64920dc2, check cycles: false
+[info] Updating {file:/Users/mhughes/ccad/development/thunderbird/test_case/client/}client...
+[info] Updating {file:/Users/mhughes/ccad/development/thunderbird/test_case/client/}client...
+[debug] Other repositories:
+[debug] Other repositories:
+[debug] Default repositories:
+[debug] Default repositories:
+[debug] Using inline dependencies specified in Scala.
+[info] :: resolving dependencies :: test-org#the-client_2.10;1.0.0-SNAPSHOT
+[info] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.10.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
+[info] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
+[info] 	[2.10.4] org.scala-lang#scala-library;2.10.4
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [runtime]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [test]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [runtime]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [optional]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [runtime]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [test]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [runtime]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [optional]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [plugin]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [scala-tool]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
+[info] :: resolution report :: resolve 79ms :: artifacts dl 2ms
+[info] 	:: modules in use:
+[info] 	org.scala-lang#scala-library;2.10.4 from sbt-chain in [compile, runtime, test, compile-internal, runtime-internal, test-internal]
+[info] 	---------------------------------------------------------------------
+[info] 	|                  |            modules            ||   artifacts   |
+[info] 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+[info] 	---------------------------------------------------------------------
+[info] 	|      compile     |   1   |   0   |   0   |   0   ||   1   |   0   |
+[info] 	|      runtime     |   1   |   0   |   0   |   0   ||   1   |   0   |
+[info] 	|       test       |   1   |   0   |   0   |   0   ||   1   |   0   |
+[info] 	|     provided     |   0   |   0   |   0   |   0   ||   0   |   0   |
+[info] 	|     optional     |   0   |   0   |   0   |   0   ||   0   |   0   |
+[info] 	| compile-internal |   1   |   0   |   0   |   0   ||   1   |   0   |
+[info] 	| runtime-internal |   1   |   0   |   0   |   0   ||   1   |   0   |
+[info] 	|   test-internal  |   1   |   0   |   0   |   0   ||   1   |   0   |
+[info] 	|      plugin      |   0   |   0   |   0   |   0   ||   0   |   0   |
+[info] 	|      sources     |   0   |   0   |   0   |   0   ||   0   |   0   |
+[info] 	|       docs       |   0   |   0   |   0   |   0   ||   0   |   0   |
+[info] 	|        pom       |   0   |   0   |   0   |   0   ||   0   |   0   |
+[info] 	|    scala-tool    |   0   |   0   |   0   |   0   ||   0   |   0   |
+[info] 	---------------------------------------------------------------------
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT compile produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-compile.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT runtime produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-runtime.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT test produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-test.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT provided produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-provided.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT optional produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-optional.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT compile-internal produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-compile-internal.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT runtime-internal produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-runtime-internal.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT test-internal produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-test-internal.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT plugin produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-plugin.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT sources produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-sources.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT docs produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-docs.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT pom produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-pom.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT scala-tool produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-scala-tool.xml
+[debug] 	resolve done (79ms resolve - 2ms download)
+[info] Done updating.
+[debug] Using inline dependencies specified in Scala.
+[info] :: resolving dependencies :: test-org#the-client_2.10;1.0.0-SNAPSHOT
+[info] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.10.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5cf57003
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
+[info] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
+[info] 	[2.10.4] org.scala-lang#scala-library;2.10.4
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [runtime]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [test]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [runtime]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [optional]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [runtime]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [test]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [runtime]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [optional]
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [plugin]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for test-org#the-client_2.10;1.0.0-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default]
+[info] Resolving org.scala-lang#scala-compiler;2.10.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.4
+[info] 	found org.scala-lang#scala-compiler;2.10.4 in sbt-chain
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->optional(default)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.10.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.4
+[info] 	found org.scala-lang#scala-reflect;2.10.4 in sbt-chain
+[info] 	[2.10.4] org.scala-lang#scala-reflect;2.10.4
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(compile)]
+[info] Resolving org.scala-lang#jline;2.10.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#jline;2.10.4
+[info] 	found org.scala-lang#jline;2.10.4 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->compile(*)]
+[debug] == resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->master(compile)]
+[info] Resolving org.fusesource.jansi#jansi;1.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
+[info] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies test-org#the-client_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
+[debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
+[info] :: resolution report :: resolve 98ms :: artifacts dl 4ms
+[info] 	:: modules in use:
+[info] 	org.fusesource.jansi#jansi;1.4 from sbt-chain in [scala-tool]
+[info] 	org.scala-lang#jline;2.10.4 from sbt-chain in [scala-tool]
+[info] 	org.scala-lang#scala-compiler;2.10.4 from sbt-chain in [scala-tool]
+[info] 	org.scala-lang#scala-library;2.10.4 from sbt-chain in [compile, runtime, test, compile-internal, runtime-internal, test-internal, scala-tool]
+[info] 	org.scala-lang#scala-reflect;2.10.4 from sbt-chain in [scala-tool]
+[info] 	---------------------------------------------------------------------
+[info] 	|                  |            modules            ||   artifacts   |
+[info] 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+[info] 	---------------------------------------------------------------------
+[info] 	|      compile     |   1   |   0   |   0   |   0   ||   1   |   0   |
+[info] 	|      runtime     |   1   |   0   |   0   |   0   ||   1   |   0   |
+[info] 	|       test       |   1   |   0   |   0   |   0   ||   1   |   0   |
+[info] 	|     provided     |   0   |   0   |   0   |   0   ||   0   |   0   |
+[info] 	|     optional     |   0   |   0   |   0   |   0   ||   0   |   0   |
+[info] 	| compile-internal |   1   |   0   |   0   |   0   ||   1   |   0   |
+[info] 	| runtime-internal |   1   |   0   |   0   |   0   ||   1   |   0   |
+[info] 	|   test-internal  |   1   |   0   |   0   |   0   ||   1   |   0   |
+[info] 	|      plugin      |   0   |   0   |   0   |   0   ||   0   |   0   |
+[info] 	|      sources     |   0   |   0   |   0   |   0   ||   0   |   0   |
+[info] 	|       docs       |   0   |   0   |   0   |   0   ||   0   |   0   |
+[info] 	|        pom       |   0   |   0   |   0   |   0   ||   0   |   0   |
+[info] 	|    scala-tool    |   5   |   0   |   0   |   0   ||   5   |   0   |
+[info] 	---------------------------------------------------------------------
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT compile produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-compile.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT runtime produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-runtime.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT test produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-test.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT provided produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-provided.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT optional produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-optional.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT compile-internal produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-compile-internal.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT runtime-internal produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-runtime-internal.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT test-internal produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-test-internal.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT plugin produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-plugin.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT sources produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-sources.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT docs produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-docs.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT pom produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-pom.xml
+[debug] 	report for test-org#the-client_2.10;1.0.0-SNAPSHOT scala-tool produced in /Users/mhughes/ccad/development/thunderbird/test_case/client/target/resolution-cache/reports/test-org-the-client_2.10-scala-tool.xml
+[debug] 	resolve done (98ms resolve - 4ms download)
+[info] Done updating.
+[info] :: delivering :: test-org#the-client_2.10;1.0.0-SNAPSHOT :: 1.0.0-SNAPSHOT :: integration :: Fri Mar 06 15:55:27 EST 2015
+[debug] 	options = status=integration pubdate=Fri Mar 06 15:55:27 EST 2015 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null
+[info] 	delivering ivy file to /Users/mhughes/ccad/development/thunderbird/test_case/client/target/ivy-1.0.0-SNAPSHOT.xml
+[debug] 	deliver done (10ms)
+[debug]
+[debug] Initial source changes:
+[debug] 	removed:Set()
+[debug] 	added: Set(/Users/mhughes/ccad/development/thunderbird/test_case/client/src/main/scala/App.scala)
+[debug] 	modified: Set()
+[debug] Removed products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set(/Users/mhughes/ccad/development/thunderbird/test_case/client/src/main/scala/App.scala)
+[debug]
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated sources: Set(/Users/mhughes/ccad/development/thunderbird/test_case/client/src/main/scala/App.scala)
+[debug] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+[info] Compiling 1 Scala source to /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/classes...
+[debug] Getting compiler-interface from component compiler for Scala 2.10.4
+[debug] Getting compiler-interface from component compiler for Scala 2.10.4
+[debug] Running cached compiler 78d38bba, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-bootclasspath
+[debug] 	/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/classes:/Users/mhughes/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+[debug] 	-classpath
+[debug] 	/Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/classes
+[debug] Scala compilation took 0.670188083 s
+[debug] Invalidating /Users/mhughes/ccad/development/thunderbird/test_case/client/src/main/scala/App.scala...
+[debug] Invalidating (transitively) by inheritance from /Users/mhughes/ccad/development/thunderbird/test_case/client/src/main/scala/App.scala...
+[debug] Initial set of included nodes: Set(/Users/mhughes/ccad/development/thunderbird/test_case/client/src/main/scala/App.scala)
+[debug] Invalidated by transitive inheritance dependency: Set(/Users/mhughes/ccad/development/thunderbird/test_case/client/src/main/scala/App.scala)
+[debug] The /Users/mhughes/ccad/development/thunderbird/test_case/client/src/main/scala/App.scala source file has the following regular definitions changed:
+[debug] 	notify, wait, $asInstanceOf, equals, asInstanceOf, App, synchronized, $isInstanceOf, notifyAll, isInstanceOf, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode.
+[debug] All member reference dependencies will be considered within this context.
+[debug] New invalidations:
+[debug] 	Set()
+[debug] Initial set of included nodes: Set()
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] 	Set()
+[debug] All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+[debug] Copy resource mappings:
+[debug]
+[debug]
+[debug] Initial source changes:
+[debug] 	removed:Set()
+[debug] 	added: Set()
+[debug] 	modified: Set()
+[debug] Removed products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set()
+[debug]
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated sources: Set()
+[debug] Copy resource mappings:
+[debug]
+[debug] Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+[debug] Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+[debug] Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+[debug] Framework implementation 'org.specs.runner.SpecsFramework' not present.
+[debug] Framework implementation 'org.scalatest.tools.Framework' not present.
+[debug] Framework implementation 'org.scalatest.tools.ScalaTestFramework' not present.
+[debug] Framework implementation 'com.novocode.junit.JUnitFramework' not present.
+[debug] Subclass fingerprints: List()
+[debug] Annotation fingerprints: List()
+[debug] local do not support transaction. ivy pattern does not use revision as a directory
+[info] 	published ivy to /Users/mhughes/.ivy2/local/test-org/the-client_2.10/1.0.0-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: test-org#the-client_2.10;1.0.0-SNAPSHOT :: 1.0.0-SNAPSHOT :: integration :: Fri Mar 06 15:55:27 EST 2015
+[debug] 	options = status=integration pubdate=Fri Mar 06 15:55:27 EST 2015 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null
+[info] 	delivering ivy file to /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/ivy-1.0.0-SNAPSHOT.xml
+[debug] 	deliver done (7ms)
+[info] Packaging /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/the-client_2.10-1.0.0-SNAPSHOT-sources.jar ...
+[info] Packaging /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/the-client_2.10-1.0.0-SNAPSHOT.jar ...
+[info] Main Scala API documentation to /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api...
+[debug] Input file mappings:
+[debug] 	App$.class
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/classes/App$.class
+[debug] 	App.class
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/classes/App.class
+[debug] Input file mappings:
+[debug] 	App.scala
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/src/main/scala/App.scala
+[debug] Getting compiler-interface from component compiler for Scala 2.10.4
+[debug] Calling Scaladoc with arguments:
+[debug] 	-d
+[debug] 	/Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api
+[debug] 	-bootclasspath
+[debug] 	/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/classes:/Users/mhughes/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+[debug] 	-classpath
+[debug] 	dummy_97e3f49b
+[debug] 	/Users/mhughes/ccad/development/thunderbird/test_case/client/src/main/scala/App.scala
+[info] Done packaging.
+[info] Done packaging.
+[info] Wrote /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/the-client_2.10-1.0.0-SNAPSHOT.pom
+model contains 2 documentable templates
+[info] Main Scala API documentation successful.
+[info] Packaging /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/the-client_2.10-1.0.0-SNAPSHOT-javadoc.jar ...
+[debug] Input file mappings:
+[debug] 	index.html
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/index.html
+[debug] 	lib/ownerbg.gif
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/ownerbg.gif
+[debug] 	lib/index.css
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/index.css
+[debug] 	lib/ref-index.css
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/ref-index.css
+[debug] 	lib/filterboxbg.gif
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/filterboxbg.gif
+[debug] 	lib/scheduler.js
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/scheduler.js
+[debug] 	lib/packagesbg.gif
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/packagesbg.gif
+[debug] 	lib/package.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/package.png
+[debug] 	lib/modernizr.custom.js
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/modernizr.custom.js
+[debug] 	lib/template.js
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/template.js
+[debug] 	lib/object_to_type_big.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/object_to_type_big.png
+[debug] 	lib/selected-right-implicits.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/selected-right-implicits.png
+[debug] 	lib/object_big.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/object_big.png
+[debug] 	lib/jquery-ui.js
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/jquery-ui.js
+[debug] 	index
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/index
+[debug] 	lib/defbg-green.gif
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/defbg-green.gif
+[debug] 	lib/selected.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/selected.png
+[debug] 	index.js
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/index.js
+[debug] 	lib/jquery.layout.js
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/jquery.layout.js
+[debug] 	lib/trait_big.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/trait_big.png
+[debug] 	lib/ownderbg2.gif
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/ownderbg2.gif
+[debug] 	lib/arrow-right.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/arrow-right.png
+[debug] 	lib/object_to_trait_big.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/object_to_trait_big.png
+[debug] 	lib/selected-implicits.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/selected-implicits.png
+[debug] 	lib/selected-right.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/selected-right.png
+[debug] 	lib/navigation-li-a.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/navigation-li-a.png
+[debug] 	lib
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib
+[debug] 	lib/object.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/object.png
+[debug] 	index/index-a.html
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/index/index-a.html
+[debug] 	lib/class.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/class.png
+[debug] 	lib/jquery.js
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/jquery.js
+[debug] 	lib/trait.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/trait.png
+[debug] 	lib/selected2-right.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/selected2-right.png
+[debug] 	lib/selected2.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/selected2.png
+[debug] 	lib/index.js
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/index.js
+[debug] 	lib/tools.tooltip.js
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/tools.tooltip.js
+[debug] 	lib/package_big.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/package_big.png
+[debug] 	lib/filter_box_right.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/filter_box_right.png
+[debug] 	lib/class_big.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/class_big.png
+[debug] 	lib/ownerbg2.gif
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/ownerbg2.gif
+[debug] 	lib/remove.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/remove.png
+[debug] 	lib/unselected.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/unselected.png
+[debug] 	lib/template.css
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/template.css
+[debug] 	lib/trait_to_object_big.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/trait_to_object_big.png
+[debug] 	lib/trait_diagram.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/trait_diagram.png
+[debug] 	lib/filterbg.gif
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/filterbg.gif
+[debug] 	lib/arrow-down.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/arrow-down.png
+[debug] 	lib/type.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/type.png
+[debug] 	lib/defbg-blue.gif
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/defbg-blue.gif
+[debug] 	lib/constructorsbg.gif
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/constructorsbg.gif
+[debug] 	lib/fullcommenttopbg.gif
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/fullcommenttopbg.gif
+[debug] 	lib/valuemembersbg.gif
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/valuemembersbg.gif
+[debug] 	lib/signaturebg2.gif
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/signaturebg2.gif
+[debug] 	App$.html
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/App$.html
+[debug] 	lib/class_to_object_big.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/class_to_object_big.png
+[debug] 	lib/navigation-li.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/navigation-li.png
+[debug] 	lib/object_to_class_big.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/object_to_class_big.png
+[debug] 	lib/object_diagram.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/object_diagram.png
+[debug] 	lib/filterboxbarbg.gif
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/filterboxbarbg.gif
+[debug] 	lib/type_to_object_big.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/type_to_object_big.png
+[debug] 	lib/filterboxbarbg.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/filterboxbarbg.png
+[debug] 	lib/diagrams.css
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/diagrams.css
+[debug] 	lib/filter_box_left.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/filter_box_left.png
+[debug] 	package.html
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/package.html
+[debug] 	lib/signaturebg.gif
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/signaturebg.gif
+[debug] 	lib/conversionbg.gif
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/conversionbg.gif
+[debug] 	lib/type_big.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/type_big.png
+[debug] 	lib/filter_box_left2.gif
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/filter_box_left2.gif
+[debug] 	lib/typebg.gif
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/typebg.gif
+[debug] 	lib/class_diagram.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/class_diagram.png
+[debug] 	lib/diagrams.js
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/diagrams.js
+[debug] 	lib/type_diagram.png
+[debug] 	  /Users/mhughes/ccad/development/thunderbird/test_case/client/target/scala-2.10/api/lib/type_diagram.png
+[info] Done packaging.
+[debug] local do not support transaction. ivy pattern does not use revision as a directory
+[info] 	published the-client_2.10 to /Users/mhughes/.ivy2/local/test-org/the-client_2.10/1.0.0-SNAPSHOT/poms/the-client_2.10.pom
+[info] 	published the-client_2.10 to /Users/mhughes/.ivy2/local/test-org/the-client_2.10/1.0.0-SNAPSHOT/jars/the-client_2.10.jar
+[info] 	published the-client_2.10 to /Users/mhughes/.ivy2/local/test-org/the-client_2.10/1.0.0-SNAPSHOT/srcs/the-client_2.10-sources.jar
+[info] 	published the-client_2.10 to /Users/mhughes/.ivy2/local/test-org/the-client_2.10/1.0.0-SNAPSHOT/docs/the-client_2.10-javadoc.jar
+[info] 	published ivy to /Users/mhughes/.ivy2/local/test-org/the-client_2.10/1.0.0-SNAPSHOT/ivys/ivy.xml
+[success] Total time: 2 s, completed Mar 6, 2015 3:55:28 PM
+[debug] > ++ 2.10.4
+[info] Setting version to 2.10.4
+[info] Reapplying settings...
+[info] Set current project to the-client (in build file:/Users/mhughes/ccad/development/thunderbird/test_case/client/)

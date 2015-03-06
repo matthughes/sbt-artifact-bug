@@ -4,7 +4,7 @@ artifacts="4"
 count=0
 while [ $artifacts -eq "4" ]
 do
-  sbt ";clean;+publishLocal"
+  sbt ";clean;debug;plugins;+publishLocal"
   artifacts=`cat /Users/mhughes/.ivy2/local/test-org/the-client_2.10/1.0.0-SNAPSHOT/ivys/ivy.xml | xml sel -t -v "count(//publications/artifact)"`
   echo "---------------------------"
   echo "---------------------------"
